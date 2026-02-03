@@ -2,6 +2,10 @@
 
 All changes required to migrate generated Apigen projects to new versions will be documented in this file.
 
+## From [2.0.1] to [2.0.2]
+
+No migration required
+
 ## From [2.0.0] to [2.0.1]
 
 No migration required
@@ -138,7 +142,8 @@ In this version Apigen has been updated to be auto documented with `spring-doc` 
 - Perform the Spring Boot migration from `2.4.x` to `2.6.x`
 - Remove the property `apigen.documentation.enabled`, now the documentation is managed by the `spring-doc` official properties
 
-[unreleased]: https://github.com/apiaddicts/apigen/releases/tag/2.0.1...HEAD
+[unreleased]: https://github.com/apiaddicts/apigen/releases/tag/2.0.2...HEAD
+[2.0.2]: https://github.com/apiaddicts/apigen/releases/tag/2.0.2
 [2.0.1]: https://github.com/apiaddicts/apigen/releases/tag/2.0.1
 [2.0.0]: https://github.com/apiaddicts/apigen/releases/tag/2.0.0
 [1.2.5]: https://github.com/apiaddicts/apigen/releases/tag/1.2.5

@@ -54,10 +54,14 @@ public class Value {
 	}
 
 	private boolean isExpression() {
-		return nonNull(property) && hasOnlyOneValue();
+		return nonNull(property) && ( hasOnlyOneValue() || hasNoValue() );
 	}
 
 	private boolean hasOnlyOneValue() {
 		return ( nonNull(value) && isNull(values) ) || ( isNull(value) && nonNull(values) );
 	}
+
+    private boolean hasNoValue() {
+        return isNull(value) && isNull(values);
+    }
 }
