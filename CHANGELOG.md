@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.1
 
 ## [unreleased]
 
+## [2.0.3] - 2026-04-01
+
+### Changed
+
+- Updated spring boot version to `4.0.5`
+
 ## [2.0.2] - 2026-02-03
 
 ### Changed
@@ -191,7 +197,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.1
 ### Added
 - Initial functional version of Apigen
 
-[unreleased]: https://github.com/apiaddicts/apigen/releases/tag/2.0.2...HEAD
+[unreleased]: https://github.com/apiaddicts/apigen/releases/tag/2.0.3...HEAD
+[2.0.3]: https://github.com/apiaddicts/apigen/releases/tag/2.0.3
 [2.0.2]: https://github.com/apiaddicts/apigen/releases/tag/2.0.2
 [2.0.1]: https://github.com/apiaddicts/apigen/releases/tag/2.0.1
 [2.0.0]: https://github.com/apiaddicts/apigen/releases/tag/2.0.0

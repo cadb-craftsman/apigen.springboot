@@ -2,6 +2,10 @@
 
 All changes required to migrate generated Apigen projects to new versions will be documented in this file.
 
+## From [2.0.2] to [2.0.3]
+
+No migration required
+
 ## From [2.0.1] to [2.0.2]
 
 No migration required
